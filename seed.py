@@ -1,5 +1,5 @@
 from sqlalchemy.orm import sessionmaker
-from models import engine, RevenueSource, GDP, EconomicRankings, calculate_and_populate_gdp_and_rankings
+from lib.database.models import engine, RevenueSource, GDP, EconomicRankings, calculate_and_populate_gdp_and_rankings
 
 Session = sessionmaker(bind=engine)
 session = Session()

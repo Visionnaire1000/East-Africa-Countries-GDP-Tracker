@@ -42,7 +42,7 @@ To install and set up the project, follow these steps:
 - Set up the database using Alembic Migrations:
        `alembic upgrade head`
 - Seed the RevenueSources Table:
-       `python3 lib/database/seed.py`
+       `python3 seed.py`
 - Run main.py file to access the cli:
        `python3 main.py`
 
